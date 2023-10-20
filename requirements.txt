@@ -1,0 +1,12 @@
+Flask
+numpy
+joblib
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+WerkZeug
+scipy
+scikit-learn
+matplotlib
+pandas

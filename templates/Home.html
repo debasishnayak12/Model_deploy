@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body bgcolor=#FFF80>
+    <center>
+        <h1>BRAIN SIZE PREDICTION</h1>
+        <br><br>
+        <form method="POST", action="{{url_for('get_prediction')}}">
+        <b> Id :<input type="text" name="data1" placeholder="*Required Fileds"><br><br>
+            Gender: <select name="data2" id="data2" required="required">
+                    <option value="1">Female</option>
+                    <option value="0">Male</option>
+            </select>
+            FSIQ :<input type="text" name="data3"  placeholder="*Required Fileds"><br><br>
+            VIQ :<input type="text" name="data4" placeholder="*Required Fileds"><br><br>
+            PIQ :<input type="text" name="data5" placeholder="*Required Fileds"><br><br>
+            Weight :<input type="text" name="data6" placeholder="*Required Fileds"><br><br>
+            Height :<input type="text" name="data7" placeholder="*Required Fileds"><br><br>
+            
+                <br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </center>
+</body>
+</html>
